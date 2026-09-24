@@ -263,11 +263,22 @@
     s.src = 'lenis.min.js';
     s.async = true;
     s.onload = () => {
-      const lenis = new Lenis({ lerp: 0.2, smoothWheel: true, wheelMultiplier: 1, touchMultiplier: 1.4 });
+      // Lenis untuk scrollTo saja (smooth anchor jumps); wheel pakai native.
+      // Quizabl pakai duration:1.2 + easing juga terasa lambat di wheel burst.
+      const lenis = new Lenis({
+        duration: 0.6,
+        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+        smoothWheel: false,
+      });
       function raf(t) { lenis.raf(t); requestAnimationFrame(raf); }
       requestAnimationFrame(raf);
+      // Toggle backdrop class pada .site-header via native scroll.
       const header = document.querySelector('.site-header');
-      if (header) lenis.on('scroll', ({ scroll }) => header.classList.toggle('is-scrolled', scroll > 8));
+      if (header) {
+        const update = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
+        window.addEventListener('scroll', update, { passive: true });
+        update();
+      }
     };
     document.head.appendChild(s);
   })();
