@@ -745,6 +745,19 @@ h1 > span, h2 > span, h3 > span, .hero-copy em, .section-heading h2 span {
   color: var(--ink);
   font-weight: 700;
 }
+.story-section .poster-illustration {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: clamp(160px, 30%, 260px);
+  height: auto;
+  pointer-events: none;
+  filter: drop-shadow(0 18px 24px rgba(91, 27, 45, 0.18));
+}
+@media (max-width: 700px) {
+  .story-section .poster-illustration { right: 28px; width: 130px; }
+}
 .story-section .story-poster > .eyebrow {
   align-self: flex-end;
 }
