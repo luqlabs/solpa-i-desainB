@@ -140,7 +140,7 @@ h1 > span, h2 > span, h3 > span, .hero-copy em, .section-heading h2 span {
   z-index: 50;
   max-width: var(--max);
   margin-inline: auto;
-  transition: background-color .25s ease, backdrop-filter .25s ease, -webkit-backdrop-filter .25s ease, box-shadow .25s ease;
+  transition: background-color .18s ease, backdrop-filter .18s ease, -webkit-backdrop-filter .18s ease, box-shadow .18s ease;
 }
 .site-header.is-scrolled {
   background: rgba(239, 197, 205, 0.82);

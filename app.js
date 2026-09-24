@@ -263,7 +263,7 @@
     s.src = 'lenis.min.js';
     s.async = true;
     s.onload = () => {
-      const lenis = new Lenis({ duration: 1.1, smoothWheel: true });
+      const lenis = new Lenis({ lerp: 0.2, smoothWheel: true, wheelMultiplier: 1, touchMultiplier: 1.4 });
       function raf(t) { lenis.raf(t); requestAnimationFrame(raf); }
       requestAnimationFrame(raf);
       const header = document.querySelector('.site-header');
