@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="700" viewBox="0 0 300 350">
+  <title>Espresso — studi warna ilustratif, bukan swatch asli</title>
+  <defs><linearGradient id="paint" x2="1" y2=".5"><stop stop-color="#342725"/><stop offset=".3" stop-color="#594039"/><stop offset=".48" stop-color="#997a69"/><stop offset=".65" stop-color="#594039"/><stop offset="1" stop-color="#342725"/></linearGradient></defs>
+  <rect width="300" height="350" fill="#ded6ca"/>
+  <g transform="rotate(20 150 175)"><path d="M89 103C89 39 208 40 211 103L213 273 205 264 197 281 189 266 180 284 171 268 162 282 153 267 144 286 135 269 126 279 117 264 106 281 95 264Z" fill="url(#paint)"/><path d="M106 104C106 81 121 71 137 70" fill="none" stroke="#997a69" stroke-width="6" stroke-linecap="round"/><path d="M108 123L116 258M194 118L199 256" stroke="#342725" opacity=".3"/></g>
+</svg>

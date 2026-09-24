@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="700" viewBox="0 0 300 350">
+  <title>Oat Milk — ilustrasi demo, bukan kemasan atau warna produk asli</title>
+  <defs>
+    <linearGradient id="glass"><stop stop-color="#967460"/><stop offset=".15" stop-color="#c6a28a"/><stop offset=".36" stop-color="#ebd5bf"/><stop offset=".5" stop-color="#c6a28a"/><stop offset=".85" stop-color="#c6a28a"/><stop offset="1" stop-color="#967460"/></linearGradient>
+    <linearGradient id="cap"><stop stop-color="#252321"/><stop offset=".28" stop-color="#47413c"/><stop offset=".65" stop-color="#24221f"/><stop offset="1" stop-color="#151513"/></linearGradient>
+    <radialGradient id="shadow"><stop stop-color="#342a24" stop-opacity=".24"/><stop offset="1" stop-color="#342a24" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="300" height="350" fill="#e8e2d5"/>
+  <circle cx="150" cy="183" r="107" fill="#fffaf2" opacity=".25"/>
+  <ellipse cx="158" cy="293" rx="86" ry="15" fill="url(#shadow)"/>
+  <path d="M111 157Q111 150 119 149H181Q189 150 189 157L200 177V272Q200 286 187 288H113Q100 286 100 272V177Z" fill="#f8f0e6" stroke="#b3a095"/>
+  <path d="M108 181Q108 171 119 168H181Q192 171 192 181V272Q191 279 183 280H117Q109 279 108 272Z" fill="url(#glass)"/>
+  <path d="M105 181V271Q105 282 114 283M191 180V269" fill="none" stroke="white" stroke-opacity=".5" stroke-width="2"/>
+  <rect x="120" y="74" width="60" height="85" rx="5" fill="url(#cap)"/>
+  <path d="M126 80V151" stroke="white" stroke-opacity=".15" stroke-width="2"/>
+  <path d="M124 156H176" stroke="#927a61" stroke-width="2"/>
+  <text x="150" y="222" font-family="Georgia,serif" font-size="22" text-anchor="middle" fill="#fffaf2" letter-spacing="-1.3">solpaċi</text>
+  <text x="150" y="242" font-family="Arial,sans-serif" font-size="6" text-anchor="middle" fill="#fffaf2" letter-spacing="1.5">COLOR STUDY</text>
+  <text x="150" y="263" font-family="Arial,sans-serif" font-size="7" text-anchor="middle" fill="#fffaf2">02</text>
+</svg>

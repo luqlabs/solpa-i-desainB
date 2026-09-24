@@ -1,0 +1,4 @@
+build/
+preview-screenshots/
+*.log
+.DS_Store
